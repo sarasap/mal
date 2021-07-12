@@ -60,6 +60,7 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Malware Prediction</h1>
           <h2>Upload your file to check.</h2>
+          <h2>Please wait for 30 seconds while we analyse the file.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <form method = "POST" action ="/predict" enctype="multipart/form-data">
               <input type="file" id="file" name="file">
@@ -85,21 +86,13 @@
         <div class="section-title">
           <h2>About Us</h2>
         </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Today one of the foremost threats on the Internet is Malicious software, often denoted as malware. With the booming development of Internet and software industry, more and more
+          <p align='justify'>
+          Today one of the foremost threats on the Internet is Malicious software, often denoted as malware. With the booming development of Internet and software industry, more and more
 malware variants are designed to perform various malicious activities becoming major threats
 to security. The are several methods for classifying of new malware from the existing
 signatures or code. More antivirus software provides defence mechanism against malwares but
 still zero-day attack is not achieved. Traditional signature-based detection methods cannot
-detect variants of malware.
-            </p>
-
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            In addition, most behaviour-based methods require a secure and
+detect variants of malware.In addition, most behaviour-based methods require a secure and
 isolated environment to perform malware detection, which is vulnerable to be contaminated.
 In this project, similar to natural language processing, a novel and efficient approach to static
 malware analysis is performed, which can automatically learn the opcode sequence patterns of
@@ -107,8 +100,11 @@ malware. We are modelling malware as a language and assess the feasibility of th
 The word embedding technique is used to learn the feature vector representation of opcode.
 We perform experiments on the dataset that includes malware and benign files.
 
-          </div>
-        </div>
+    </p>
+    <p align='center'>
+      Developers - Sarasa P , Ritika Shrivastava , Parth Chawla , Rutvi Rahul Gadre 
+    </p>
+       
 
       </div>
     </section><!-- End About Us Section -->
